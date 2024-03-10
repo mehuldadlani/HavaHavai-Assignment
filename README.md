@@ -31,7 +31,6 @@ For submission, I went with GitHub. I set up a public repository for the project
 
 ## Screenshots
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
-![Screenshot 3](screenshots/screenshot3.png)
-![Screenshot 4](screenshots/screenshot4.png)
+![Screenshot 1](screenshots/Screenshot_1710095797.png)
+![Screenshot 2](screenshots/Screenshot_1710095804.png)
+![Screenshot 3](screenshots/Screenshot_1710095812.png)
