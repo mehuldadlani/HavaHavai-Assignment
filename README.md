@@ -1,44 +1,37 @@
-# Stacked Architecture Flutter App Template
+# 🚀 Flutter Internship Assignment - Completed
 
-Welcome to the Stacked Architecture Flutter App Template! 🚀
+## Introduction
 
-## Overview
+Hey there! I'm excited to share my submission for the Flutter Internship Assignment from Havahavai. This assignment gave me a chance to showcase my Flutter skills, especially in UI design and implementation. 😊
 
-The Stacked architecture is like building blocks for your Flutter apps! It helps you keep your code organized and easy to maintain. Here's a quick rundown:
+## Assignment Details
 
-- **ViewModels**: These manage your app's logic and state.
-- **Services**: They handle things like fetching data and performing other tasks.
-- **Views**: These are what your users see and interact with.
+### Marvel Design File
 
-Check out the [Stacked architecture documentation](https://stacked.filledstacks.com/docs/getting-started/overview) for more details!
+The design file for this assignment was shared via Marvel. You can check it out [here](https://marvelapp.com/prototype/1076197/screen/93923389/handoff).
 
-## Template Structure
+### Focus
 
-In this template, you'll find:
+My main goal was to recreate the design as closely as possible using Flutter. I made sure to pay attention to layout, colors, and basic interactions. And hey, I skipped the repeated widgets to save time! 🎨
 
-- **ViewModels**: Keep your logic here! They live in the `viewmodels` directory.
-- **Services**: Need to interact with APIs or databases? Look in the `services` directory!
-- **Views**: The user interface is in the `views` directory.
+### Timeframe
 
-## Author's Note
+I managed to wrap things up within the weekend, submitting my work by Sunday, 10th March. Time flies when you're having fun coding! ⏰
 
-This is my take on the Stacked architecture template. It's how I like to organize my Flutter projects. Hope you find it useful! 😊
+### Submission
 
-## Suggestions and Contributions
+For submission, I went with GitHub. I set up a public repository for the project and shared the link with the Havahavai team. Oh, and I also tossed in an APK file of the build! 📱
 
-Got ideas to make this template even better? Feel free to:
+## What I Worked On
 
-- Open an issue on GitHub.
-- Fork the repo, make your changes, and send a pull request.
+- **Attention to Detail:** I made sure every pixel counted to match the design.
+- **Code Quality:** Kept the code clean and organized, sticking to Flutter's best practices.
+- **Efficiency:** Used Flutter's features like a pro to create a smooth and responsive UI.
 
-Let's make Flutter development even more awesome together! 💪
 
-## Get in Touch
+## Screenshots
 
-Have questions or just want to chat about Flutter and Stacked architecture? Shoot me an email at [mehuldadlani13@gmail.com](mailto:mehuldadlani13@gmail.com). I'm all ears! 👂
-
-## License
-
-This Stacked architecture Flutter app template is licensed under the [MIT License](LICENSE).
-
-Go ahead, use this template, and build amazing Flutter apps with ease! 🎉
+![Screenshot 1](screenshots/screenshot1.png)
+![Screenshot 2](screenshots/screenshot2.png)
+![Screenshot 3](screenshots/screenshot3.png)
+![Screenshot 4](screenshots/screenshot4.png)
