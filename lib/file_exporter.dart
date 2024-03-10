@@ -19,7 +19,9 @@ export 'package:stacked_tempelate/services/local_storage_service.dart';
 export 'package:stacked_tempelate/themes/app_colors.dart';
 export 'package:stacked_tempelate/utils/extension.dart';
 export 'package:url_launcher/url_launcher.dart';
+export 'utils/ui_helpers.dart';
 
 //views
 
 export 'package:stacked_tempelate/ui/views/splash/splash_view.dart';
+export 'package:stacked_tempelate/ui/views/home/home_view.dart';

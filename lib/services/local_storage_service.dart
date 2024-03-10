@@ -2,7 +2,7 @@ import 'package:injectable/injectable.dart';
 import 'package:get_storage/get_storage.dart';
 
 @lazySingleton
-class LocalStorageService{
+class LocalStorageService {
   final GetStorage storage = GetStorage();
   Future<bool> initStorage() async => await GetStorage.init();
 

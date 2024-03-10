@@ -14,7 +14,12 @@ import 'package:stacked_tempelate/file_exporter.dart' as _i2;
 class Routes {
   static const splashView = '/splash-view';
 
-  static const all = <String>{splashView};
+  static const homeView = '/home-view';
+
+  static const all = <String>{
+    splashView,
+    homeView,
+  };
 }
 
 class StackedRouter extends _i1.RouterBase {
@@ -22,7 +27,11 @@ class StackedRouter extends _i1.RouterBase {
     _i1.RouteDef(
       Routes.splashView,
       page: _i2.SplashView,
-    )
+    ),
+    _i1.RouteDef(
+      Routes.homeView,
+      page: _i2.HomeView,
+    ),
   ];
 
   final _pagesMap = <Type, _i1.StackedRouteFactory>{
@@ -31,7 +40,13 @@ class StackedRouter extends _i1.RouterBase {
         builder: (context) => const _i2.SplashView(),
         settings: data,
       );
-    }
+    },
+    _i2.HomeView: (data) {
+      return _i3.MaterialPageRoute<dynamic>(
+        builder: (context) => const _i2.HomeView(),
+        settings: data,
+      );
+    },
   };
 
   @override
@@ -56,6 +71,20 @@ extension NavigatorStateExtension on _i4.NavigationService {
         transition: transition);
   }
 
+  Future<dynamic> navigateToHomeView([
+    int? routerId,
+    bool preventDuplicates = true,
+    Map<String, String>? parameters,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
+  ]) async {
+    return navigateTo<dynamic>(Routes.homeView,
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
+  }
+
   Future<dynamic> replaceWithSplashView([
     int? routerId,
     bool preventDuplicates = true,
@@ -64,6 +93,20 @@ extension NavigatorStateExtension on _i4.NavigationService {
         transition,
   ]) async {
     return replaceWith<dynamic>(Routes.splashView,
+        id: routerId,
+        preventDuplicates: preventDuplicates,
+        parameters: parameters,
+        transition: transition);
+  }
+
+  Future<dynamic> replaceWithHomeView([
+    int? routerId,
+    bool preventDuplicates = true,
+    Map<String, String>? parameters,
+    Widget Function(BuildContext, Animation<double>, Animation<double>, Widget)?
+        transition,
+  ]) async {
+    return replaceWith<dynamic>(Routes.homeView,
         id: routerId,
         preventDuplicates: preventDuplicates,
         parameters: parameters,

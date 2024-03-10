@@ -1,13 +1,11 @@
 part of 'splash_view.dart';
 
-
 class SplashViewModel extends BaseViewModel {
   final navigationService = locator<NavigationService>();
   final log = getLogger("SplashViewModel");
   final localStorageService = locator<LocalStorageService>();
 
-
-  loginButtonOntap(){
+  loginButtonOntap() {
     log.i("onTap");
     // navigationService.back(Routes.homeView);
     localStorageService.write("name", "value");

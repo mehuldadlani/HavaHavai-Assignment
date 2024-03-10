@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../file_exporter.dart';
 
-
 part 'splash_view_model.dart';
 part 'splash_view_components.dart';
 
@@ -21,12 +20,15 @@ class SplashView extends StatelessWidget {
               const CircularProgressIndicator(),
               SizedBox(height: 20.hWise),
               GestureDetector(
-                onDoubleTap: model.loginButtonOntap,
-                child:  Text('Loading...', style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: context.colorScheme.primaryVariant,
-                ),)),
+                  onDoubleTap: model.loginButtonOntap,
+                  child: Text(
+                    'Loading...',
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: context.colorScheme.primaryVariant,
+                    ),
+                  )),
             ],
           ),
         ),

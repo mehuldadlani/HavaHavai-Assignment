@@ -4,7 +4,7 @@ import 'package:stacked_tempelate/file_exporter.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await setupLocator();
+   setupLocator();
   // setupDialogUi();
   // setupBottomSheetUi();
   runApp(const MainApp());
@@ -16,12 +16,9 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: Routes.splashView,
+      initialRoute: Routes.homeView,
       onGenerateRoute: StackedRouter().onGenerateRoute,
       navigatorKey: StackedService.navigatorKey,
-      navigatorObservers: [
-        StackedService.routeObserver,
-      ],
     );
   }
 }
