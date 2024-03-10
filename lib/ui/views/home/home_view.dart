@@ -340,7 +340,7 @@ class HomeView extends StatelessWidget {
                               elevation: 5,
                               child: Container(
                                 height: 90.hWise,
-                                width: 110.hWise,
+                                width:  context.w / 3 - 30,
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(10),
@@ -383,7 +383,7 @@ class HomeView extends StatelessWidget {
                               elevation: 5,
                               child: Container(
                                 height: 90.hWise,
-                                width: 110.hWise,
+                               width:  context.w / 3 - 30,
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(10),
@@ -426,7 +426,7 @@ class HomeView extends StatelessWidget {
                               elevation: 5,
                               child: Container(
                                 height: 90.hWise,
-                                width: 110.hWise,
+                                width:  context.w / 3 - 30,
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(10),
@@ -475,7 +475,7 @@ class HomeView extends StatelessWidget {
                               elevation: 5,
                               child: Container(
                                 height: 90.hWise,
-                                width: 110.hWise,
+                               width:  context.w / 3 - 30,
                                 decoration: BoxDecoration(
                                   color: Colors.white,
                                   borderRadius: BorderRadius.circular(10),
@@ -507,17 +507,17 @@ class HomeView extends StatelessWidget {
                             ),
                             Container(
                               height: 90.hWise,
-                              width: 110.hWise,
+                             width:  context.w / 3 - 30,
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Colors.transparent,
                                 borderRadius: BorderRadius.circular(10),
                               ),
                             ),
                             Container(
                               height: 90.hWise,
-                              width: 110.hWise,
+                             width:  context.w / 3 - 30,
                               decoration: BoxDecoration(
-                                color: Colors.white,
+                                color: Colors.transparent,
                                 borderRadius: BorderRadius.circular(10),
                               ),
                             ),
@@ -1235,7 +1235,7 @@ class HomeView extends StatelessWidget {
                     children: [
                       Container(
                         height: 50.hWise,
-                        width: 180.hWise,
+                        width: context.w / 2 - 30,
                         decoration: BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(10),
@@ -1261,7 +1261,7 @@ class HomeView extends StatelessWidget {
                       ),
                        Container(
                         height: 50.hWise,
-                        width: 180.hWise,
+                        width: context.w / 2 - 30,
                         decoration: BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.circular(10),
