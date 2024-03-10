@@ -31,6 +31,9 @@ For submission, I went with GitHub. I set up a public repository for the project
 
 ## Screenshots
 
-![Screenshot 1](screenshots/Screenshot_1710095797.png)
-![Screenshot 2](screenshots/Screenshot_1710095804.png)
-![Screenshot 3](screenshots/Screenshot_1710095812.png)
+
+<div style="display: flex; justify-content: center;">
+    <img src="screenshots/Screenshot_1710095797.png" alt="Screenshot 1" style="width: 200px; margin-right: 40px;">
+    <img src="screenshots/Screenshot_1710095804.png" alt="Screenshot 2" style="width: 200px; margin-right: 40px;">
+    <img src="screenshots/Screenshot_1710095812.png" alt="Screenshot 3" style="width: 200px;">
+</div>
