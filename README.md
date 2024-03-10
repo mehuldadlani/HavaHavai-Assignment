@@ -14,14 +14,6 @@ The design file for this assignment was shared via Marvel. You can check it out 
 
 My main goal was to recreate the design as closely as possible using Flutter. I made sure to pay attention to layout, colors, and basic interactions. And hey, I skipped the repeated widgets to save time! 🎨
 
-### Timeframe
-
-I managed to wrap things up within the weekend, submitting my work by Sunday, 10th March. Time flies when you're having fun coding! ⏰
-
-### Submission
-
-For submission, I went with GitHub. I set up a public repository for the project and shared the link with the Havahavai team. Oh, and I also tossed in an APK file of the build! 📱
-
 ## What I Worked On
 
 - **Attention to Detail:** I made sure every pixel counted to match the design.
